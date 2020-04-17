@@ -1,24 +1,26 @@
-# README
+# Introduction
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a repository of a collection of coding exercises from Rails Girls Guides: https://guides.railsgirls.com/
 
-Things you may want to cover:
+---
 
-* Ruby version
+## Clone
 
-* System dependencies
+```bash
+git clone git@github.com:amytangcodes/girlsrails.git
+cd girlsrails
+```
 
-* Configuration
+## Install and Migrate DB
 
-* Database creation
+```bash
+bundle install
+rails db:migrate
+```
 
-* Database initialization
+## Start Server
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+rails server
+```
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
